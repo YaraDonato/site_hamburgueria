@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./script.js">
+    <link rel="icon" href="./imagens/cachorro.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/1fc2587666.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Inicio Hamburguer da capa -->
+
+    <section id="inicio">
+        <div class="zoom">
+            <img src="./imagens/hamburguer.jpg" class="hamburguer-frente" alt="Dois Hamburguers" width="2000">
+        </div>
+    </section>
+
+    <!-- Fim Hamburguer da capa -->
+    <!-- Inicio Cabecalho-->
+    <section id="header">
+        <div class="header container">
+        <div class="hamburger">
+            <nav>
+                <ul class="servicos">
+                    <li><a href="#inicio" data-after="Home">Inicio</a></li>
+                    <li><a href="#localecontato" data-after="Service">Localização e Contato</a></li>
+                    <li><a href="#SocialMedia" data-after="SocialMedia">Redes Sociais</a></li>
+                    <li><a href="#about" data-after="About">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </section>
+    <!-- Fim Cabecalho-->
+    <!-- Inicio Sobre-->
+    <section id="about">
+        <div class="sobre-container">
+            <h1 class="sobre-titulo">So<span>bre</span></h1>
+        </div>
+        <div class="texto-sobre">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quisquam iure, necessitatibus numquam veritatis a, <br> laudantium reiciendis quae odio accusamus inventore alias adipisci facilis quia, sequi nam sapiente quas molestiae!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nihil vero quasi ducimus cumque similique cum <br> ipsam corrupti incidunt omnis expedita repellendus, mollitia eligendi? Voluptatem eos alias qui enim ratione.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat similique nisi veniam dolores recusandae ipsa labore <br> repellat nulla, nihil, hic sed? Ipsum at maxime obcaecati ducimus dolores officiis natus nesciunt.</p>
+        </div>
+    </section>
+    <!-- Fim Sobre-->
+        <!-- Inicio Contato & Localização -->
+        <section id="localecontato">
+            <div class="clear50"></div>
+            <div class="contatoelocalizacao">
+                <h2 class="contato-nome">Con<span>tato</span></h2>
+                <h2 class="localizacao">Venha <span>até</span> nós!</h2>
+            </div>
+            <div class="rua">
+                <p>Rua fulana num 345, Vila Batatinha - Rio de janeiro - RJ</p>
+            </div>
+                <form>
+                    <div class="input-grupo">
+                        <input type="text" id="name" required>
+                        <label for="name">Seu Nome</label>
+                    </div>
+                    <div class="input-grupo">
+                        <input type="tel" id="tel" required>
+                        <label for="tel">Seu Telefone</label>
+                    </div>
+                    <div class="input-grupo">
+                        <input type="name" id="email" required>
+                        <label for="email">Seu Email</label>
+                        <!-- Nesse caso eu substitui o tipo "Email" por "Name" por questões de estetica. O tipo "email" fazia com que o "Seu Email" ficasse por cima doq você escrevia (a menos que você colocasse o seu email completo), 
+                            eu realmente não sei como resolver isso. Se vocês souberem eu gostaria de saber pra poder arrumar o codigo-->
+                    </div>
+                    <div class="input-grupo">
+                        <textarea id="mensagem" rows="8" required></textarea>
+                        <label for="mensagem">Sua Mensagem</label>
+                    </div>
+                    <button type="enviar">Enviar</button>
+                </form>
+        </section>
+        <!-- Fim Contato-->
+        <!-- Inicio Redes Sociais -->
+        <section id="SocialMedia">
+            <div class="redesocial">
+                <h3>Redes <span>Sociais</span></h3>
+            </div>
+            <div class="icones-sociais">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="clear100"></div>
+        <!-- Fim Redes Sociais -->
+    <!-- Inicio Footer-->
+    <footer>
+        <div class="footer">
+            <p>&copy; Hamburgueria - todos os direitos reservados - 2022</p>
+        </div>
+    </footer>
+    <!-- Fim Footer-->
+</body>
+</html>
